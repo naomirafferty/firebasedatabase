@@ -1,4 +1,5 @@
-package com.example.week7adv;
+// This is the class for the 'User' table. Go to App -> Java -> com.example.[projectname]
+// Right click on the folder, click 'new', and add a new Java class
 
 public class User {
     String userId;
