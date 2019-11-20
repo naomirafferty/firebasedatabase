@@ -1,4 +1,4 @@
-package com.example.week7adv;
+/* This will already be on the MainActivity if you were able to connect Firebase correctly, so no need to copy the imports.
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,10 +10,11 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.FirebaseDatabase; */
 
 public class MainActivity extends AppCompatActivity {
 
+    //List all the features added to the XML layout
     EditText editTextName;
     EditText editTextEmailAddress;
     EditText editTextPassword;
