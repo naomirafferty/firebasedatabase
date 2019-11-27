@@ -11,6 +11,11 @@ public class User {
     String userCity;
     String userPostcode;
     String userDOB;
+    
+    // Payment Information Details
+    String user16DigitNo;
+    String userExpirationDate;
+    String userCVVCode;
 
     public User() {
 
@@ -18,7 +23,8 @@ public class User {
 
     public User(String userId, String userName, String userEmail,
                 String userPassword, String userPhoneNo, String userAddress, String userCity,
-                String userPostcode, String userDOB) {
+                String userPostcode, String userDOB, String user16DigitNo, String userExpirationDate,
+                String userCVVCode) {
 
         this.userId = userId;
         this.userName = userName;
@@ -29,6 +35,11 @@ public class User {
         this.userCity = userCity;
         this.userPostcode = userPostcode;
         this.userDOB = userDOB;
+        
+        // Payment Information; not needed for Registration
+        this.user16DigitNo = user16DigitNo;
+        this.userExpirationDate = userExpirationDate;
+        this.userCVVCode = userCVVCode;
     }
 
     public String getUserId() {
@@ -66,4 +77,17 @@ public class User {
     public String getUserDOB() {
         return userDOB;
     }
+    
+       public String getUser16DigitNo() {
+        return user16DigitNo;
+    }
+
+    public String getUserExpirationDate() {
+        return userExpirationDate;
+    }
+
+    public String getUserCVVCode() {
+        return userCVVCode;
+    }
+
 }
